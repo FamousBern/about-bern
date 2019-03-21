@@ -1,0 +1,143 @@
+body {
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.btn {
+  padding: 0.8em;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: #00c2db;
+  font-size: 15px;
+  transition: background 1s ease;
+}
+
+.btn:hover {
+  background: #02a3d4;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+p {
+  font-size: 120%;
+  word-spacing: 0.1em;
+}
+
+a {
+  color: #4b179e;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+#main {
+  background: #9c1247;
+  border-radius: 8px;
+  padding: 2em 2em;
+  margin-top: 2rem;
+}
+
+.info {
+  background: #f0e009;
+  color: #000;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* About me page */
+.gradient {
+  color: #fff;
+  margin: 0;
+  padding: 1em;
+  height: 500px;
+  background-image: linear-gradient(to right, #124ff7, #02a3d4);
+}
+
+.gradient #about-me {
+  text-align: center;
+}
+
+.white-bg {
+  color: #fff;
+  text-align: center;
+  background: #02a3d4;
+  padding: 1em 1em;
+  margin-top: 1em;
+}
+
+.personal-info {
+  margin: 3em;
+  background: #fff;
+  color: #9c1247;
+  border-radius: px;
+  padding: 1rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0.6);
+}
+
+.grid {
+  margin-right: 3em;
+}
+
+.grid h1,
+h4 {
+  margin: 0;
+}
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+ul {
+  text-decoration: none;
+  margin-top: 1em;
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0.2em 0.5em;
+}
+/*end of about me page */
+
+#footer {
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+/*small screen */
+@media (max-width: 700px) {
+  .info {
+    width: 100%;
+  }
+  .personal-info {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/*large screen */
+@media (min-width: 700px) {
+  .personal-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
